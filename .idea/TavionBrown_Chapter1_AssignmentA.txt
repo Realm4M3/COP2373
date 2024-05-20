@@ -1,0 +1,4 @@
+1. Tavion Brown and 5/19/2024
+2. This program allows the buyer to input a certain amount of tickets to see the total amount that has been sold
+3. total_tickets_left, total_buyers, number_tickets
+4. sell_tickets
