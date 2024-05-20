@@ -1,0 +1,14 @@
+import random
+
+response_1 = "Yes, of course!"
+response_2 = "Without a doubt, yes."
+response_3 = "You can count on it."
+response_4 = "For sure!"
+response_5 = "Ask me later!"
+response_6 = "I'm not sure."
+response_7 = "I can't tell you right now."
+response_8 = "I'll tell you after my nap."
+response_9 = "No way!"
+response_10 = "I don't think so."
+response_11 = "Without a doubt, no."
+reposne_12 = "The answer is clearly NO!"
