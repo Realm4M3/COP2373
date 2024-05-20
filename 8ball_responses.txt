@@ -1,12 +1,12 @@
-Yes, of course!
-Without a doubt, yes.
-You can count on it.
-For sure!
-Ask me later!
-I'm not sure.
-I can't tell you right now.
-I'll tell you after my nap.
-No way!
-I don't think so.
-Without a doubt, no.
-The answer is clearly NO!
+1	Yes, of course!
+2	Without a doubt, yes.
+3	You can count on it.
+4	For sure!
+5	Ask me later!
+6	I'm not sure.
+7	I can't tell you right now.
+8	I'll tell you after my nap.
+9	No way!
+10	I don't think so.
+11	Without a doubt, no.
+12	The answer is clearly NO!
