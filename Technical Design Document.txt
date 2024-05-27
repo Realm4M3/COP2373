@@ -29,4 +29,4 @@ Design Process
 then the total_spam_score will be here for the score count of spams and all.
 5. Exit the while loop and print the results.
 6. The main function at the end is here to help with the code. 
-7. GitHub: github.com/
+7. GitHub: github.com/Realm4M3/COP2373
