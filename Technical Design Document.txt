@@ -1,0 +1,32 @@
+Technical Design Document
+By: Tavion Brown
+Date: 05/23/2024
+Summary
+A program that allows the user to determine on the whether it's either legit or a spam. The user will have unlimited attempts to see if it's 
+not a spam or highly one.
+
+Variables
+* spam_words
+* spam_score
+* detected_keywords
+* word
+* count
+* score
+* total_spam_score
+* message
+* likelihood
+
+Functions
+* main()
+* calculate_spam_score(message)
+*determine_spam_likelihood(score)
+
+Design Process
+1. Create a list of 30 words that are commonly found in spam messages.
+2. Initialize calculate_spam_score(message) that will be used to take email message as the input.
+3. After, create a determine_spam_likelihood(score) that will be used to illustrate the chance of it being a spam.
+4. Once the whole process at the top is done, the main() will be here to flow the overall program process,
+then the total_spam_score will be here for the score count of spams and all.
+5. Exit the while loop and print the results.
+6. The main function at the end is here to help with the code. 
+7. GitHub: github.com/
