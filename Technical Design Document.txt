@@ -2,7 +2,7 @@ Technical Design Document
 By: Tavion Brown
 Date: 05/23/2024
 Summary
-A program that allows the user to determine on the whether it's either legit or a spam. The user will have unlimited attempts to see if it's 
+A program that allows the user to determine on whether it's either legit or a spam. The user will have unlimited attempts to see if it's 
 not a spam or highly one.
 
 Variables
