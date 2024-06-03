@@ -1,0 +1,27 @@
+Technical Design Document
+By: Tavion Brown
+Date: 06/1/2024
+Summary
+A program will allowed the user to put in a list of their monthly expenses. It will also display their total, their highest, and their lowest expense.
+
+Variables
+* expenses
+* expense_type
+* amount
+* total_expense
+* highest_expense
+* lowest_expense
+
+Functions
+* main()
+* get_expenses()
+* analyze_expenses(expenses)
+
+Design Process
+1. Create a loop that allows the user to either type in their expense or type in done
+2. Type in the amount you want for your expenses
+3. Display none at all, only if you add nothing
+4. Once half the whole process at the top is done, the other part for the calculating will display
+5. Once done with the loop type in done to see the results
+6. The main function at the end is here to help with the code. 
+7. GitHub: github.com/Realm4M3/COP2373
