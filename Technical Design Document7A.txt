@@ -1,0 +1,22 @@
+Technical Design Document
+By: Tavion Brown
+Date: 06/23/2024
+Summary
+A program will allowed the user to see the total amount of sentences they made
+
+Variables
+* sentences
+* sentence
+* user_input
+* total_sentences
+
+Functions
+* main()
+
+Design Process
+1. Create a store for all the information to go for the sentences.
+2. Allow the user to enter as many amount of sentences until they type 'END'.
+3. Once you enter 'END', it will display on how many sentences you wrote.
+4. And it will display the total results.
+5. At the end, the main function is here to help with the code. 
+6. GitHub: github.com/Realm4M3/COP2373

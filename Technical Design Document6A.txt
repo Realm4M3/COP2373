@@ -1,0 +1,29 @@
+Technical Design Document
+By: Tavion Brown
+Date: 06/23/2024
+Summary
+A program will allowed the user to enter in there phone number, there social security number, and there zip code.
+If the results are correct then it will display valid, if not then invalid.
+Variables
+* phone_number
+* pattern
+* ssn
+* pattern
+* zip_code
+* is_ssn_valid
+* is_zip_valid
+
+Functions
+* main()
+* validate_phone_number(phone_number)
+* validate_ssn(ssn)
+* validate_zip_code(zip_code)
+
+Design Process
+1. Creating in the inputs for the phone, ssn, and zip.
+2. Making a return function, where it will return if it matches the corresponding one.
+3. User will enter in the 3 numbers
+4. If the results resembles the example, then it will be correct
+5. If the results is not similar to the example, then it will be incorrect.
+6. The main function at the end is here to help with the code. 
+7. GitHub: github.com/Realm4M3/COP2373
