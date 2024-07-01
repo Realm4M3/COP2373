@@ -1,0 +1,47 @@
+Technical Design Document
+By: Tavion Brown
+Date: 06/30/2024
+Summary
+This program will allow the user to put in there name and there test scores, once the information is store it,
+will be from the grades.csv file to show the results and have a form.
+Variables
+* num_students
+* file
+* writer
+* reader
+* headers
+* choice
+* first_name
+* last_name
+* exam1, exam2, exam3
+* i
+* grades.cvs
+* w, r, q
+
+Functions
+* write_grades_to_csv():
+* read_grades_from_cvs():
+* if__name__=="__main__"
+
+
+Design Process
+1. You will put in on how much students you want.
+2. Creating a cvs file to store the information there when done.
+3. Then, you will put in your first and last name in this code, as well as your 3 test score.
+4. Once you finish with that your information would be save to the cvs file
+5. To open it, type in "r" to display the results from the csv, it would also display as a group box:
+
+with open('grades.csv', mode='r') as file:
+        reader = csv.reader(file)
+        headers = next(reader)
+        
+        print("{:<15} {:<15} {:<8} {:<8} {:<8}".format(*headers))
+        print("="*54)
+        
+        for row in reader:
+            print("{:<15} {:<15} {:<8} {:<8} {:<8}".format(*row))
+
+if __name__ == "__main__":
+
+6. At the end, it will display error if you choice the wrong choice. Make sure to enter 'w', 'r' or 'q'.
+7. GitHub: github.com/Realm4M3/COP2373
