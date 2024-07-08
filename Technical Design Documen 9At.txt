@@ -1,0 +1,32 @@
+Technical Design Document
+By: Tavion Brown
+Date: 7/7/2024
+Summary
+This program will allow the user to put in there name, there number and all of that. Once that is done,
+you will have the option to change the interest rate based on the number of days. Your current balance will be the result.
+* name
+* account_number
+* amount
+* deposit_interest_rate
+* withdraw_interest_rate
+
+Functions
+* __init__(self, name, account_number, amount, deposit_interest_rate, withdraw_interest_rate)
+* adjust_deposit_interest_rate(self, new_rate)
+* adjust_withdraw_interest_rate(self, new_rate)
+* deposit(self, amount)
+* withdraw(self, amount)
+* adjust_balance(self, new_balance)
+* get_balance(self)
+* calculate_interest(self, days, for_deposit=True)
+* __str__(self)
+
+
+Design Process
+1. The user will put in there information, like there name and all that
+2. Next, you will be able to put in the interest rate for the deposit,
+and also the withdraw.
+3. Then, you will enter the number of days to calculate the deposit interest.
+4. Same thing will be used for the withdraw.
+5. Once you put everything in it will display your current balance.
+6. GitHub: github.com/Realm4M3/COP2373
