@@ -1,0 +1,39 @@
+Technical Design Document
+By: Tavion Brown
+Date: 7/14/2024
+Summary
+This program will use the same information it used in 9A but instead, it will
+inherit the add and subtract methods from Money Class.
+Variables
+* v
+* units
+* name
+* account_number
+* amount
+* deposit_interest_rate
+* withdraw_interest_rate
+* units
+
+Functions
+* __new__(cls, v, units='USD')
+* __init__(self, v, units='USD')
+* __add__(self, other)
+* __sub__(self, other)
+* __mul__(self, other)
+* __str__(self)
+* __init__(self, name, account_number, amount, deposit_interest_rate, withdraw_interest_rate, units='USD
+* adjust_deposit_interest_rate(self, new_rate)
+* adjust_withdraw_interest_rate(self, new_rate)
+* deposit(self, amount)
+* withdraw(self, amount)
+* adjust_balance(self, new_balance)
+* get_balance(self)
+* calculate_interest(self, days, for_deposit=True)
+
+Design Process
+1. The user will us the information in Programming Exercise 9A and rewrite it
+2. Next, you will use the add and subtract methods from the Money class.
+3. Keep the same test function from 9A.
+4. Type in your information and all of that.
+5. Once you put everything in it will display your result.
+6. GitHub: github.com/Realm4M3/COP2373

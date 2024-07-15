@@ -1,0 +1,49 @@
+Technical Design Document
+By: Tavion Brown
+Date: 7/14/2024
+Summary
+This program will allow the user to use the information from Section 10.12 and complete the class
+definition of Money so that addition, multiplication, and subtraction are all supported.
+Variables
+* v
+* units
+* name
+* account_number
+* amount
+* deposit_interest_rate
+* withdraw_interest_rate
+* units
+* acct_number
+* initial_balance
+* deposit_rate
+* withdraw_rate
+* days
+* withdraw_rate
+* new_deposit_rate
+* new_withdraw_rate
+* new_balance
+* deposit_amount
+Functions
+* __new__(cls, v, units='USD')
+* __init__(self, v, units='USD')
+* __add__(self, other)
+* __sub__(self, other)
+* __mul__(self, other)
+* __init__(self, name, account_number, amount, deposit_interest_rate, withdraw_interest_rate, units='USD')
+* adjust_deposit_interest_rate(self, new_rate)
+* adjust_withdraw_interest_rate(self, new_rate)
+* deposit(self, amount)
+* withdraw(self, amount)
+* adjust_balance(self, new_balance)
+* get_balance(self)
+* calculate_interest(self, days, for_deposit=True)
+* __str__(self)
+
+
+Design Process
+1. The user will put in there information that was used in Section 10.12
+2. Add a add, multiply, and subtract function.
+3. add str for the currency unit.
+4. Add the methods.
+5. Put in your information and results will vary.
+6. GitHub: github.com/Realm4M3/COP2373
