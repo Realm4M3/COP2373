@@ -1,0 +1,25 @@
+Technical Design Document
+By: Tavion Brown
+Date: 7/21/2024
+Summary
+This program will allow the user to enter a number for the adjacent side while the angle would be random,
+this will display the hypotenuse.
+Variables
+* nearest_angle_degrees
+* adjacent_side
+* angle_radians
+* hypotenuse_length
+* math
+* random
+Functions
+* calculate_hypotenuse(nearest_angle_degrees,adjacent_side)
+* main()
+
+
+Design Process
+1. Using the import math and random will help with the math equation for this code.
+2. Next, write a code where the angle and adjacent converts into hypotenuse.
+3. After this, generate a random between 1 through 89.
+4. Make it where the user can type in any number they want for the adjacent side.
+5. Once you do that, this will display the result on how long the hypotenuse is.
+6. GitHub: github.com/Realm4M3/COP2373
