@@ -1,0 +1,36 @@
+Technical Design Document
+By: Tavion Brown
+Date: 7/21/2024
+Summary
+This program will allow the user to draw up to 5 cards and they will have the option to
+either replace one of them.
+Variables
+* self.cards
+* suits
+* values
+* suit
+* value
+* self.cards
+* num_cards
+* hand
+* card
+* indices
+* drawn_cards
+* index
+* deck
+* i
+* replace_indices
+Functions
+* __init__(self)
+* shuffle(self)
+* deal_hand(self, num_cards)
+* draw_cards(self, indices)
+* main()
+
+
+Design Process
+1. Using the import random, this will help with generating with the number for the cards
+2. Next, the player will be giving with a set of cards
+3. During the draw phase, the player will have the ability to replace any one of those cards and get a new one
+4. Once you choose one, it will display the one that you replace
+5. GitHub: github.com/Realm4M3/COP2373
