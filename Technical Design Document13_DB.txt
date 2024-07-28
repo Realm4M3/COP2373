@@ -1,0 +1,106 @@
+Technical Design Document
+By: Tavion Brown
+Date: 07/28/2024
+Summary
+This program will allow the user to put in the city they want and it will display the year and population on a chart.
+Variables
+* conn
+* cursor
+* cities
+* city_name
+* last_population
+* new_population
+* data
+* years
+* populations
+* cities
+* city_choice
+* chosen_city
+
+Functions
+* create_database()
+* insert_initial_data()
+* simulate_population_growth()
+* visualize_population_growth()
+* main()
+
+
+Design Process
+1. The user will have a total of 10 cities to choice from.
+2. Once you choice the city, it will display the growth on that chosen city
+3. It will show you the population and the year.
+4. GitHub: github.com/Realm4M3/COP2373
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
